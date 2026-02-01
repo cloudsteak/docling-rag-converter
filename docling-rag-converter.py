@@ -82,7 +82,7 @@ def main():
     logger.info(f"🏁 Feldolgozás befejezve. Sikeres: {success_count}/{len(files)}")
     if success_count > 0:
         logger.info(f"👉 A Markdown fájlokat itt találod: {OUTPUT_DIR.absolute()}")
-        logger.info("💡 Tipp: Töltsd fel ezeket az Azure Storage Account-ra az AI Search indexeléshez!")
+        logger.info("💡 Tipp: Használd ezeket a fájlokat a RAG rendszered indexeléséhez (Azure AI Search, Pinecone, Weaviate, vagy bármely más megoldás)!")
 
 if __name__ == "__main__":
     main()
