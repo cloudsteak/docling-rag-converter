@@ -1,9 +1,13 @@
 [project]
 name = "docling-rag-converter"
 version = "0.1.0"
-description = "A simple tool to convert PDF, DOCX, XLSX and HTML to clean Markdown for RAG."
+description = "Egyszerű eszköz PDF, DOCX, XLSX és HTML dokumentumok konvertálásához tiszta Markdown formátumba RAG-hoz."
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Cloud Mentor" }
+]
 dependencies = [
     "docling>=2.0.0",
 ]
