@@ -39,7 +39,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ## Használat
 
-Nem kell manuálisan virtuális környezetet létrehozni. Az `uv` mindent kezel.
+Az `uv` automatikusan kezeli a virtuális környezetet és a függőségeket - nem kell külön venv-et létrehozni vagy csomagokat telepíteni. Az első futtatáskor automatikusan mindent beállít.
 
 1. **Klónozd le a repository-t:**
 ```bash
@@ -55,6 +55,10 @@ uv run docling-rag-converter.py
 
 ```
 
+Az első futtatáskor az `uv`:
+- Automatikusan létrehoz egy virtuális környezetet
+- Telepíti a szükséges csomagokat (docling)
+- Lefuttatja a scriptet
 
 3. **Munkafolyamat:**
 * Első futtatáskor létrehozza az `input` és `output` mappákat.
