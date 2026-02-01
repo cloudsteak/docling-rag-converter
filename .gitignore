@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+.vscode/settings.json
+
+# Konvertálásra váró fájlok, minden kiterjesztéssel, amit a program támogat
+input/*.xlsx
+input/*.docx
+input/*.pdf
+input/*.html
+input/*.pptx
+
+# Kimeneti fájlok
+output/*.md
+
